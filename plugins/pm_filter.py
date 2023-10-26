@@ -55,7 +55,7 @@ async def pm_text(bot, message):
 async def next_page(bot, query):
     ident, req, key, offset = query.data.split("_")
     if int(req) not in [query.from_user.id, 0]:
-        return await query.answer("ɴᴇᴇ sʜᴏᴏᴘᴀʀᴀᴅᴀ👌.\nᴠᴇɴᴏɢɪʟ ɴᴇᴇʏ sᴇᴀʀᴄʜ ᴄʜʏ🔎🔍", show_alert=True)
+        return await query.answer("This Massage Is Old...🙂\n\nType New Massage.....✅", show_alert=True)
     try:
         offset = int(offset)
     except:
@@ -378,7 +378,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     caption=f_caption,
                     protect_content=True if ident == "filep" else False 
                 )
-                await query.answer('मूवी फाइल पर्सनल में भेजा है...🙂\n\nFile Sending Successfully ✅', show_alert=True)
+                await query.answer(आपको मूवी पर्सनलचैट में भेजा है...✅\n\nFile Sending Successfully ✅', show_alert=True)
         except UserIsBlocked:
             await query.answer('Unblock the bot mahn !', show_alert=True)
         except PeerIdInvalid:
