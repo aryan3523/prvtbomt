@@ -378,7 +378,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     caption=f_caption,
                     protect_content=True if ident == "filep" else False 
                 )
-                await query.answer(आपको मूवी पर्सनलचैट में भेजा है...✅\n\nFile Sending Successfully ✅', show_alert=True)
+                await query.answer('आपको मूवी पर्सनलचैट में भेजा है...✅\n\nFile Sending Successfully ✅', show_alert=True)
         except UserIsBlocked:
             await query.answer('Unblock the bot mahn !', show_alert=True)
         except PeerIdInvalid:
@@ -755,7 +755,7 @@ async def advantage_spell_chok(client, msg):
         ]]
 
         k = await msg.reply_text(
-            text=("<b>sᴏʀʀʏ ɴᴏ ꜰɪʟᴇs ᴡᴇʀᴇ ꜰᴏᴜɴᴅ\n\nᴄʜᴇᴄᴋ ʏᴏᴜʀ sᴘᴇʟʟɪɴɢ ɪɴ ɢᴏᴏɢʟᴇ ᴀɴᴅ ᴛʀʏ ᴀɢᴀɪɴ !!</b>"),
+            text=("<b>Not Found In Datebase.....(Chack your spelling)</b>"),
             reply_markup=InlineKeyboardMarkup(button),
             reply_to_message_id=msg.id
         )
@@ -790,7 +790,7 @@ async def advantage_spell_chok(client, msg):
     ]
     btn.append([InlineKeyboardButton(text="✘ ᴄʟᴏsᴇ ✘", callback_data=f'spol#{reqstr1}#close_spellcheck')])
     spell_check_del = await msg.reply_text(
-        text="<b>लगता है मूवी का नाम गलत है....!!!</b>",
+        text="<b>मूवी का नाम गलत है....!!!</b>",
         reply_markup=InlineKeyboardMarkup(btn),
         reply_to_message_id=msg.id
     )
