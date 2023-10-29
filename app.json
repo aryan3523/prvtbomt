@@ -20,7 +20,7 @@
     "env": {
         "BOT_TOKEN": {
             "description": "Your bot token.",
-"value":"6488653342:AAHnho92aBq3gXs8eyKHwo_pzx5lL8MbjRY",
+"value":"6184116893:AAEMvGyyguvNZ3eEvD8YbqBOo1eh7rbwNvY",
             "required": true
         },
         "API_ID": {
@@ -40,7 +40,7 @@
         },
         "ADMINS": {
             "description": "Username or ID of Admin. Separate multiple Admins by space.",
-"value":"1991522624",
+"value":"5227327021",
             "required": true
         },
         "PICS": {
@@ -57,11 +57,6 @@
             "description": "Username or ID of users to give access of inline search. Separate multiple users by space.\nLeave it empty if you don't want to restrict bot usage.",
             "required": false
         },
-        "AUTH_CHANNEL": {
-            "description": "ID of channel.Make sure bot is admin in this channel. Without subscribing this channel users cannot use bot.",
-"value":"-1001821560097",
-            "required": false
-        },
         "DATABASE_URI": {
             "description": "mongoDB URI. Get this value from https://www.mongodb.com.",
 "value":"mongodb+srv://happythehour:skumar(2006)@cluster0.wttyshn.mongodb.net/?retryWrites=true&w=majority",
@@ -69,7 +64,7 @@
         },
         "DATABASE_NAME": {
             "description": "Name of the database in mongoDB.",
-"value":"PMBOT",
+"value":"kuutuuBot",
             "required": false
         },
         "COLLECTION_NAME": {
