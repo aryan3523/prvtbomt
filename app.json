@@ -74,6 +74,9 @@
         }
     },
     "addons": [],
+    "buildpacks": [{
+        "url": "python"
+    }],
     "formation": {
         "worker": {
             "quantity": 1,
